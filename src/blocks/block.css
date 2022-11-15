@@ -1,0 +1,30 @@
+.block{
+    position: relative;
+    width: 80vw;
+    height: 80vh;
+    background: rgb(30, 155, 218);
+}
+
+.block__child{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    line-height: 100px;
+    text-align: center;
+    background: #d14fd1;
+    cursor: move;
+    transition: 0.3s linear;
+}
+
+.block__child:hover{
+ background: #d781d7;
+ color: #561f56;
+}
+
+.block__child:active{
+ background: #4d044d; 
+ color: #fff; 
+}
+
+
